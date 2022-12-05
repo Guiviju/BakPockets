@@ -9,7 +9,7 @@ reset
 
 # png
 set terminal png size 1000,1000 enhanced font 'Verdana,20'
-set output 'bak_d01_1_12_MC.png'
+set output 'bak.png'
 
 unset key
 
@@ -39,4 +39,4 @@ set palette defined ( 0 "#000010",\
 
 set view map
 set pm3d interpolate 500,500
-splot 'bak_d01_1_12_MC.his' u 1:2:3 w pm3d
+splot 'bak.his' u 1:2:3 w pm3d
